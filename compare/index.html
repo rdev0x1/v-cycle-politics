@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Comparer les candidats — V-Cycle Politics</title>
+  <meta name="description" content="Choisissez d'abord vos idées, puis comparez-les aux positions documentées des candidats.">
+  <link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <nav>
+        <a class="brand" href="../"><span class="logo">V</span><span>V-Cycle Politics</span></a>
+        <div class="links">
+          <a href="../#concept">Concept</a>
+          <a href="../#cycle">Cycle en V</a>
+          <a href="../#principes">Principes</a>
+          <a href="./" aria-current="page">Candidats</a>
+          <a class="lang" href="#" aria-label="Langue actuelle : français">FR ▾</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap">
+      <section class="page-head">
+        <div class="eyebrow">Comparateur · prototype</div>
+        <h1>D'abord vos idées.<br>Ensuite les candidats.</h1>
+        <p class="lede">Choisissez vos positions sans regarder les noms. Le site pourra ensuite mesurer la compatibilité avec les candidats à partir de positions documentées, datées et sourcées.</p>
+      </section>
+
+      <section style="padding-top:20px">
+        <div class="matcher">
+          <div class="card">
+            <div class="kicker">APERÇU DU QUESTIONNAIRE</div>
+
+            <div class="question">
+              <h3>Limiter constitutionnellement le déficit structurel ?</h3>
+              <div class="choices">
+                <button class="choice">Contre</button>
+                <button class="choice">Neutre</button>
+                <button class="choice selected">Pour</button>
+                <button class="choice">Je ne sais pas</button>
+              </div>
+            </div>
+
+            <div class="question">
+              <h3>Un investissement peut-il être financé par la dette s'il bénéficie aux générations qui la rembourseront ?</h3>
+              <div class="choices">
+                <button class="choice">Non</button>
+                <button class="choice selected">Oui</button>
+                <button class="choice">Je ne sais pas</button>
+              </div>
+            </div>
+
+            <div class="question">
+              <h3>Les politiques publiques devraient-elles comporter une date de réévaluation obligatoire ?</h3>
+              <div class="choices">
+                <button class="choice">Non</button>
+                <button class="choice selected">Oui</button>
+                <button class="choice">Je ne sais pas</button>
+              </div>
+            </div>
+
+            <div class="question">
+              <h3>Les critères de réussite d'une réforme doivent-ils être publiés avant son adoption ?</h3>
+              <div class="choices">
+                <button class="choice">Non</button>
+                <button class="choice selected">Oui</button>
+                <button class="choice">Je ne sais pas</button>
+              </div>
+            </div>
+          </div>
+
+          <aside class="candidate">
+            <div class="kicker">EXEMPLE DE RÉSULTAT</div>
+            <h3 style="font-size:28px;margin:0;">Candidat A</h3>
+            <div class="score"><strong>82%</strong><span>compatibilité</span></div>
+            <div class="bar"><div></div></div>
+            <p style="color:var(--muted);margin:0 0 18px;">Couverture : 91 % de vos critères disposent d'une position documentée.</p>
+            <div class="stats">
+              <div class="stat"><strong>21</strong><span>accords</span></div>
+              <div class="stat"><strong>4</strong><span>désaccords</span></div>
+              <div class="stat"><strong>2</strong><span>inconnus</span></div>
+            </div>
+            <div class="notice"><strong>Inconnu ≠ désaccord.</strong><br>Une position non documentée ne doit ni favoriser ni pénaliser artificiellement un candidat.</div>
+          </aside>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>Le score devra rester<br>entièrement explicable.</h2>
+          <p>Pas de recommandation opaque : chaque point du score renverra vers la position retenue, sa source, sa date et le niveau de confiance de la classification.</p>
+        </div>
+        <div class="problems">
+          <article class="card"><div class="kicker">A · Source forte</div><h3>Programme ou vote</h3><p>Programme officiel, texte signé ou vote parlementaire explicite.</p></article>
+          <article class="card"><div class="kicker">B · Source directe</div><h3>Déclaration publique</h3><p>Interview, discours ou réponse explicite du candidat sur le sujet.</p></article>
+          <article class="card"><div class="kicker">C · Interprétation</div><h3>Position déduite</h3><p>Utilisée avec prudence et clairement signalée ; elle pourra être exclue du score par défaut.</p></article>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap footer-grid">
+      <div><strong style="color:var(--text)">V-Cycle Politics</strong><br>Le comparateur ne vous dit pas pour qui voter.</div>
+      <div><a href="../">← Retour au concept</a></div>
+    </div>
+  </footer>
+
+  <script src="../assets/site.js"></script>
+</body>
+</html>
