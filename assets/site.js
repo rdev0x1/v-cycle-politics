@@ -15,3 +15,13 @@ document.querySelectorAll(".question").forEach((question) => {
     });
   });
 });
+
+const languageLink = document.querySelector(".lang");
+if (languageLink && document.documentElement.lang === "fr") {
+  const isComparePage = window.location.pathname.endsWith("/compare/") ||
+    window.location.pathname.endsWith("/compare/index.html");
+
+  languageLink.textContent = "FR · EN";
+  languageLink.href = isComparePage ? "../en/compare/" : "en/";
+  languageLink.setAttribute("aria-label", "Passer à la version anglaise");
+}
